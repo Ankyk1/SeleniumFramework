@@ -22,7 +22,7 @@ public class LoginStepsDemo_PF {
 	@Given("user is on login test page")
 	public void user_is_on_login_test_page() {
 		
-		System.out.println("in page factory session");
+		System.out.println("in page factory session comment for git");
 		
 		String projectPath = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", projectPath+"/src/test/resources/Drivers/chromedriver.exe");
